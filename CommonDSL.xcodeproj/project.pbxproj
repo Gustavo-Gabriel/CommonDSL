@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		F1BD2C7B27891D840024E7DC /* CommonDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BD2C7027891D830024E7DC /* CommonDSL.framework */; };
 		F1BD2C8027891D840024E7DC /* CommonDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BD2C7F27891D840024E7DC /* CommonDSLTests.swift */; };
 		F1BD2C8127891D840024E7DC /* CommonDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BD2C7327891D830024E7DC /* CommonDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1BD2C8B27891DC30024E7DC /* CoordinatorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BD2C8A27891DC30024E7DC /* CoordinatorProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		F1BD2C7427891D830024E7DC /* CommonDSL.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CommonDSL.docc; sourceTree = "<group>"; };
 		F1BD2C7A27891D840024E7DC /* CommonDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BD2C7F27891D840024E7DC /* CommonDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonDSLTests.swift; sourceTree = "<group>"; };
+		F1BD2C8A27891DC30024E7DC /* CoordinatorProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				F1BD2C7327891D830024E7DC /* CommonDSL.h */,
 				F1BD2C7427891D830024E7DC /* CommonDSL.docc */,
+				F1BD2C8A27891DC30024E7DC /* CoordinatorProtocols.swift */,
 			);
 			path = CommonDSL;
 			sourceTree = "<group>";
@@ -154,7 +157,7 @@
 				};
 			};
 			buildConfigurationList = F1BD2C6A27891D830024E7DC /* Build configuration list for PBXProject "CommonDSL" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BD2C8B27891DC30024E7DC /* CoordinatorProtocols.swift in Sources */,
 				F1BD2C7527891D830024E7DC /* CommonDSL.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +402,7 @@
 		F1BD2C8827891D840024E7DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J3Q7HWN3W7;
@@ -419,6 +424,7 @@
 		F1BD2C8927891D840024E7DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J3Q7HWN3W7;
