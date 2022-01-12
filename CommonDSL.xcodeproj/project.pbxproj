@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F148FB72278E56C0003E8061 /* changelog.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = changelog.md; sourceTree = "<group>"; };
 		F1BD2C7027891D830024E7DC /* CommonDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BD2C7327891D830024E7DC /* CommonDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDSL.h; sourceTree = "<group>"; };
 		F1BD2C7427891D830024E7DC /* CommonDSL.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CommonDSL.docc; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		F1BD2C6627891D830024E7DC = {
 			isa = PBXGroup;
 			children = (
+				F148FB72278E56C0003E8061 /* changelog.md */,
 				F1BD2C8C278929280024E7DC /* MIT_LICENSE */,
 				F1BD2C7227891D830024E7DC /* CommonDSL */,
 				F1BD2C7E27891D840024E7DC /* CommonDSLTests */,
